@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  farm: 1
+  server: 1
+  flickr_id: MyString
+  secret: MyString
+
+two:
+  farm: 1
+  server: 1
+  flickr_id: MyString
+  secret: MyString

@@ -1,0 +1,9 @@
+<% provide(:title, 'Favorites') %>
+  <h1>Favorites</h1>
+
+  <% @photos.each do |photo| %>
+    <img src='http://farm<%= photo.farm %>.staticflickr.com/<%= photo.server
+                            %>/<%= photo.flickr_id %>_<%= photo.secret %>.jpg'>
+    <%= button_to "Delete", photo_path(:id => photo.id), :method => :delete %>
+
+  <% end %>
